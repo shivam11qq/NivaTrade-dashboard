@@ -1,0 +1,43 @@
+.order-table-wrapper {
+  padding: 20px;
+}
+
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+.order-table th,
+.order-table td {
+  padding: 14px 20px;
+  text-align: left;
+}
+
+.mode-buy,
+.mode-sell {
+  font-size: 15px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.mode-buy {
+  color: #2ecc71;
+  background-color: rgba(46, 204, 113, 0.15);
+}
+
+.mode-sell {
+  color: #ff5252;
+  background-color: rgba(255, 82, 82, 0.15);
+}
+
+.order-table td {
+  font-size: 14px;   /* ya jo bhi size chahiye */
+}
+
+.profit, .loss {
+  font-size: 14px;
+  font-weight: 600;
+}
