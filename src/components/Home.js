@@ -8,7 +8,7 @@ const Home = () => {
   useEffect(() => {
   const params = new URLSearchParams(window.location.search);
   const token = params.get("token");
-  const username = params.get("username");
+ 
 
   if (token) {
     localStorage.setItem("token", token);
